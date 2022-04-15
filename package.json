@@ -1,0 +1,39 @@
+{
+    "name": "queuesamples",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production  node backend/server.js",
+        "dev": "cross-env NODE_ENV=development nodemon backend/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ntavora/queueSamples.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ntavora/queueSamples/issues"
+    },
+    "homepage": "https://github.com/ntavora/queueSamples#readme",
+    "dependencies": {
+        "async": "^3.2.3",
+        "bull": "^4.8.1",
+        "bull-arena": "^3.29.3",
+        "ejs": "^3.1.6",
+        "express": "^4.17.3",
+        "http": "^0.0.1-security",
+        "loadash": "^1.0.0",
+        "morgan": "^1.10.0",
+        "path": "^0.12.7",
+        "redis": "^4.0.6"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "dotenv": "^16.0.0",
+        "nodemon": "^2.0.15",
+        "response-time": "^2.3.2"
+    }
+}
